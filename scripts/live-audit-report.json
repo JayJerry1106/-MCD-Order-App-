@@ -1,0 +1,356 @@
+{
+  "site": "https://mcd-order-app.pages.dev/",
+  "at": "2026-10-22T07:56:54.439Z",
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "pageErrors": [],
+  "badResponses": [],
+  "reqLog": [
+    {
+      "url": "/?v=audit1792655726400",
+      "status": 200
+    },
+    {
+      "url": "/js/api.js",
+      "status": 200
+    },
+    {
+      "url": "/js/recommend.js",
+      "status": 200
+    },
+    {
+      "url": "/js/app.js",
+      "status": 200
+    },
+    {
+      "url": "/js/config.js",
+      "status": 200
+    },
+    {
+      "url": "/js/views.js",
+      "status": 200
+    },
+    {
+      "url": "/js/state.js",
+      "status": 200
+    },
+    {
+      "url": "/js/checkout.js",
+      "status": 200
+    },
+    {
+      "url": "/js/voice.js",
+      "status": 200
+    },
+    {
+      "url": "/css/style.css",
+      "status": 200
+    },
+    {
+      "url": "/js/geo.js",
+      "status": 200
+    },
+    {
+      "url": "/api/status",
+      "status": 200
+    },
+    {
+      "url": "/manifest.webmanifest",
+      "status": 200
+    },
+    {
+      "url": "/api/stores",
+      "status": 200
+    },
+    {
+      "url": "/api/menu",
+      "status": 200
+    },
+    {
+      "url": "/api/nutrition",
+      "status": 200
+    },
+    {
+      "url": "/api/meal",
+      "status": 200
+    },
+    {
+      "url": "/api/price",
+      "status": 200
+    },
+    {
+      "url": "/api/delivery/addresses",
+      "status": 200
+    },
+    {
+      "url": "/api/delivery/stores",
+      "status": 200
+    },
+    {
+      "url": "/api/coupons/mine",
+      "status": 200
+    },
+    {
+      "url": "/api/coupons/store",
+      "status": 200
+    },
+    {
+      "url": "/api/coupons/available",
+      "status": 200
+    },
+    {
+      "url": "/api/stores",
+      "status": 200
+    },
+    {
+      "url": "/api/menu",
+      "status": 200
+    },
+    {
+      "url": "/api/status",
+      "status": 200
+    },
+    {
+      "url": "/api/stores",
+      "status": 200
+    },
+    {
+      "url": "/api/nutrition",
+      "status": 200
+    },
+    {
+      "url": "/api/order/status",
+      "status": 200
+    }
+  ],
+  "results": [
+    {
+      "phase": "A",
+      "name": "页面加载并渲染菜单（.product-card > 0）",
+      "pass": true,
+      "extra": "8 个商品卡，总耗时 12444ms"
+    },
+    {
+      "phase": "A",
+      "name": "分类横滑渲染（.cat-chip > 0）",
+      "pass": true,
+      "extra": "16 个分类"
+    },
+    {
+      "phase": "A",
+      "name": "实时模式徽章",
+      "pass": true,
+      "extra": "⚡ 实时模式"
+    },
+    {
+      "phase": "A",
+      "name": "无 console.error",
+      "pass": true,
+      "extra": ""
+    },
+    {
+      "phase": "A",
+      "name": "无 pageerror（未捕获异常）",
+      "pass": true,
+      "extra": ""
+    },
+    {
+      "phase": "A",
+      "name": "无失败请求（HTTP >= 400）",
+      "pass": true,
+      "extra": "[]"
+    },
+    {
+      "phase": "A",
+      "name": "FCP 采集",
+      "pass": true,
+      "extra": "FCP 3944ms"
+    },
+    {
+      "phase": "A",
+      "name": "LCP 采集",
+      "pass": true,
+      "extra": "LCP 9712ms"
+    },
+    {
+      "phase": "A",
+      "name": "资源请求数（含 MCP 代理 API）",
+      "pass": true,
+      "extra": "25 个资源，传输约 0KB，DCL 3917ms"
+    },
+    {
+      "phase": "B",
+      "name": "首屏渲染后推荐区有内容",
+      "pass": true,
+      "extra": "推荐卡 4 张（state.recommend=6，营养表 158 条）"
+    },
+    {
+      "phase": "B",
+      "name": "分类行在首屏内（不被底部导航遮挡）",
+      "pass": false,
+      "extra": "视口 844px：分类行 top=787，底部导航 top=786，首个商品卡 top=884"
+    },
+    {
+      "phase": "B",
+      "name": "首个商品卡在首屏内（菜单立即可见）",
+      "pass": false,
+      "extra": "商品卡 top=884 vs 导航 top=786"
+    },
+    {
+      "phase": "B",
+      "name": "分类切换后推荐区保持且不误导航",
+      "pass": false,
+      "extra": "hash=，卡 4 张，分类=人气热卖"
+    },
+    {
+      "phase": "C",
+      "name": "商品详情弹层打开并加载",
+      "pass": true,
+      "extra": "龙焰芝士棒鸡腿堡三件套"
+    },
+    {
+      "phase": "C",
+      "name": "加购后角标更新",
+      "pass": true,
+      "extra": "角标 1"
+    },
+    {
+      "phase": "C",
+      "name": "购物车路由渲染商品行",
+      "pass": true,
+      "extra": "1 行"
+    },
+    {
+      "phase": "C",
+      "name": "进入结算第 1 步",
+      "pass": true,
+      "extra": ""
+    },
+    {
+      "phase": "C",
+      "name": "麦乐送面板展开",
+      "pass": true,
+      "extra": "我的配送地址 2 个"
+    },
+    {
+      "phase": "C",
+      "name": "P2-1：配送信息不完整时「下一步」应禁用",
+      "pass": false,
+      "extra": "缺陷复现：按钮可点（beCode=\"\"，地址 2 个）"
+    },
+    {
+      "phase": "C",
+      "name": "进入结算第 2 步（优惠券）",
+      "pass": true,
+      "extra": "券卡 1 张"
+    },
+    {
+      "phase": "C",
+      "name": "P2-2：切换取餐模式后券池应重置重载",
+      "pass": false,
+      "extra": "自取态: {\"couponsLoaded\":true,\"coupons\":0,\"storeCoupons\":0,\"mode\":\"delivery\",\"beCode\":\"\"} → 麦乐送态: {\"couponsLoaded\":true,\"coupons\":0,\"storeCoupons\":0,\"mode\":\"takeout\",\"beCode\":\"\"}"
+    },
+    {
+      "phase": "D",
+      "name": "语音浮层打开",
+      "pass": false,
+      "extra": ""
+    },
+    {
+      "phase": "D",
+      "name": "唤醒模式开关存在",
+      "pass": true,
+      "extra": ""
+    },
+    {
+      "phase": "D",
+      "name": "建议指令 chips 渲染",
+      "pass": true,
+      "extra": "我想吃巨无霸 / 有什么推荐 / 送到家 / 查询订单 / 我的地址 / 打开购物车 / 去结算"
+    },
+    {
+      "phase": "D",
+      "name": "语音浮层关闭",
+      "pass": true,
+      "extra": ""
+    },
+    {
+      "phase": "E",
+      "name": "门店选择器打开",
+      "pass": true,
+      "extra": ""
+    },
+    {
+      "phase": "E",
+      "name": "定位流程收敛（success 或明确 error，不 hang）",
+      "pass": true,
+      "extra": "{\"status\":\"success\",\"place\":\"科技街社区 · 泺源街道 · 市中区\",\"note\":null,\"err\":null,\"stores\":5}"
+    },
+    {
+      "phase": "E",
+      "name": "定位后门店列表刷新",
+      "pass": true,
+      "extra": "5 家门店"
+    },
+    {
+      "phase": "F",
+      "name": "320px 视口无横向溢出",
+      "pass": true,
+      "extra": "溢出 0px；元素：article.rs-card(249~457),div.rs-img(250~456),img.?(250~456),div.rs-body(250~456),div.rs-name(262~444)"
+    },
+    {
+      "phase": "F",
+      "name": "375px 视口无横向溢出",
+      "pass": true,
+      "extra": "溢出 0px；元素：article.rs-card(249~457),div.rs-img(250~456),img.?(250~456),div.rs-body(250~456),div.rs-name(262~444)"
+    },
+    {
+      "phase": "F",
+      "name": "390px 视口无横向溢出",
+      "pass": true,
+      "extra": "溢出 0px；元素：article.rs-card(249~457),div.rs-img(250~456),img.?(250~456),div.rs-body(250~456),div.rs-name(262~444)"
+    },
+    {
+      "phase": "F",
+      "name": "414px 视口无横向溢出",
+      "pass": true,
+      "extra": "溢出 0px；元素：article.rs-card(249~457),div.rs-img(250~456),img.?(250~456),div.rs-body(250~456),div.rs-name(262~444)"
+    },
+    {
+      "phase": "F",
+      "name": "768px 视口无横向溢出",
+      "pass": true,
+      "extra": "溢出 0px；元素：article.rs-card(761~993),div.rs-img(762~992),img.?(762~992),div.rs-body(762~992),div.rs-name(774~980)"
+    },
+    {
+      "phase": "F",
+      "name": "1440px 视口无横向溢出",
+      "pass": true,
+      "extra": "溢出 0px；元素：button.cat-chip(1362~1487),button.cat-chip(1495~1585),button.cat-chip(1593~1680),button.cat-chip(1688~1804),button.cat-chip(1812~1874)"
+    },
+    {
+      "phase": "G",
+      "name": "/api/status 返回 live",
+      "pass": true,
+      "extra": "{\"status\":200,\"success\":true,\"error\":null,\"hasData\":true}"
+    },
+    {
+      "phase": "G",
+      "name": "/api/stores 门店查询（济南趵突泉）",
+      "pass": true,
+      "extra": "{\"status\":200,\"success\":true,\"error\":null,\"hasData\":true}"
+    },
+    {
+      "phase": "G",
+      "name": "/api/nutrition 营养表",
+      "pass": true,
+      "extra": "{\"status\":200,\"success\":true,\"error\":null,\"hasData\":true}"
+    },
+    {
+      "phase": "G",
+      "name": "/api/order/status 写门禁已放开（非 403 即达 MCP）",
+      "pass": true,
+      "extra": "{\"status\":200,\"success\":true,\"error\":null,\"hasData\":true}"
+    }
+  ]
+}
